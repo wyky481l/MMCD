@@ -1,0 +1,10 @@
+python == 3.9.12
+numpy == 1.23.1
+pytorch == 1.12.0
+torch-geometric == 2.0.1
+pytorch-lightning == 1.9.2
+pytorch-metric-learning == 2.1.0
+pyg == 2.2.0
+modlamp == 4.3.0
+biopython == 1.81
+peptidebuilder == 1.1.0
