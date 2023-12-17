@@ -1,5 +1,4 @@
 # MMCD Multi-Model Contrastive Diffusion
-----
 
 ####  Codes, datasets and appendix for AAAI-2024 paper "A Multi-Modal Contrastive Diffusion Model for Therapeutic Peptide Generation"
 
