@@ -17,7 +17,7 @@
 ### Run code
 
 For how to run MMCD, we present an example based on the AMP dataset, which could be easy extend to other peptide datasets.
-1. Download the AMP dataset with fasta files for sequences and pdb files for structures. Then place the files in the specified folder. Due to the large amount of training data required for the model, we will upload it to a public repository and update the resource links.
+1. Download the AMP dataset with fasta files for sequences and pdb files for structures. Then place the files in the specified folder. Due to the large amount of training data required for the model, we upload the source data to Google cloud drive with the resource link (https://drive.google.com/file/d/1PmUFzdTlxFoEcODHqyWPgwJmG4B01lEG/view?usp=drive_link)
 - `data/`
   + `source/`
       + `fasta/`: `AMP.fasta`, `nonAMP.fasta`
