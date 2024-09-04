@@ -20,6 +20,7 @@ class SeqBlock(nn.Module):
 
         self.ln1 = nn.LayerNorm(n_emb, elementwise_affine=False)
         self.ln2 = nn.LayerNorm(n_emb)
+        self.dropout = nn.Dropout(attn_drop) if attn_drop > 0 else nn.Identity()             
 
         self.attn = SelfAttention(
             n_emb=n_emb,
