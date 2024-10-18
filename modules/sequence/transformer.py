@@ -64,7 +64,7 @@ class SeqBlock(nn.Module):
         x = self.dropout(x + a)
         x = self.ln1(x)
 
-        x = self.dropout(x + self.ffn(x))
+        x = self.dropout(x + self.mlp(x))
         x = self.ln2(x)
 
         return x, att
